@@ -1,4 +1,4 @@
-const router = express('express').Router()
+const router = require('express').Router()
 const { DiceSet } = require('../db/models')
 module.exports = router
 
