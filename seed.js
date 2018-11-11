@@ -12,25 +12,72 @@ const characters = [
     name: 'Xarro',
     class: 'Wizard',
     race: 'Dark Elf'
+  },
+  {
+    name: 'Kirk',
+    class: 'Gunslinger',
+    race: 'Gnome'
+  },
+  {
+    name: 'Ramiel',
+    class: 'Paladin',
+    race: 'Aasimar'
+  },
+  {
+    name: 'Red Dragon'
   }
 ]
 
 const dicesets = [
   {
+    name: 'Punch Damage',
     dice: '1d8+5',
     characterId: 1
   },
   {
+    name: 'Fireball',
     dice: '8d6',
     characterId: 2
   },
   {
-    dice: '4d12+5',
+    name: 'Cone of Cold',
+    dice: '8d8',
     characterId: 2
   },
   {
-    dice: '1d20+5',
+    name: 'Punch Attack',
+    dice: '1d20+9',
     characterId: 1
+  },
+  {
+    name: 'Shotgun Blast',
+    dice: '2d10+4',
+    characterId: 3
+  },
+  {
+    name: 'Pistol Attack',
+    dice: '1d20+8',
+    characterId: 3
+  },
+  {
+    name: 'Divine Smite',
+    dice: '5d8',
+    characterId: 4
+  },
+  {
+    name: 'Greatsword Slash',
+    dice: '1d20+10',
+    characterId: 4
+  },
+  {
+    name: 'Fire Breath',
+    dice: '18d6',
+    characterId: 5
+  },
+  {
+    name: 'Claw Attack',
+    dice: '1d20+14',
+    characterId: 5
   }
 ]
 
