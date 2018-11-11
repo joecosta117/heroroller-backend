@@ -4,7 +4,11 @@ module.exports = router
 
 router.get('/', async (req, res, next) => {
   try {
-    const characters = await Character.findAll()
+    const characters = await Character.findAll({
+      include: [{
+        model: DiceSet
+      }]
+    })
     res.send(characters)
   } catch (err) {
     next(err)
