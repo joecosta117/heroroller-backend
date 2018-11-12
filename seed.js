@@ -25,6 +25,11 @@ const characters = [
   },
   {
     name: 'Red Dragon'
+  },
+  {
+    name: 'Karissa',
+    class: 'Rogue / Bard',
+    race: 'Half-elf'
   }
 ]
 
@@ -78,6 +83,16 @@ const dicesets = [
     name: 'Claw Attack',
     dice: '1d20+14',
     characterId: 5
+  },
+  {
+    name: 'Rapier of Lightning',
+    dice: '1d8+1d6+5',
+    characterId: 6
+  },
+  {
+    name: 'Lightning Bolt',
+    dice: '8d6',
+    characterId: 6
   }
 ]
 
