@@ -31,6 +31,11 @@ const characters = [
     class: 'Rogue / Bard',
     race: 'Half-elf'
   }
+  {
+    name: 'Razgar',
+    class: 'Sorcerer',
+    race: 'Dragonborn'
+  }
 ]
 
 const dicesets = [
